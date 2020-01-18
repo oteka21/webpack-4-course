@@ -16,7 +16,9 @@
     "build:url-loader": "webpack-dev-server --config ./url-loader/webpack.config.js",
     "build:split": "webpack-dev-server --config ./prevent-duplication/webpack.config.js",
     "build:dll": "webpack --config ./dll/webpack.dll.config.js",
-    "build:prevent-duplication-fast": "webpack --config ./dll/webpack.config.js"
+    "build:prevent-duplication-fast": "webpack --config ./dll/webpack.config.js",
+    "build:dynamic:dll": "webpack --config ./dynamic/webpack.dll.config.js",
+    "build:dynamic": "webpack --config ./dynamic/webpack.config.js"
   },
   "author": "Leonardo oteca",
   "license": "MIT",
